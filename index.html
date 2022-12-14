@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Conversor de monedas</h1>
+    <section class="convert-box">
+      <div>
+        <h2>Monto en pesos (CLP)</h2>
+        <input type="text" value="" id="clpAmount" />
+      </div>
+      <div>
+        <h2>Moneda a convertir:</h2>
+        <select id="moneyChange">
+          <option value="dolar" id="pluraldolar" class="es">Dolar</option>
+          <option value="uf" id="pluraluf" class="">uf</option>
+          <option value="euro" id="pluraleuro" class="s">Euro</option>
+          <option value="utm" id="pluralutm" class="">UTM</option>
+        </select>
+      </div>
+      <button id="convertButton" class="convert-button">Convertir</button>
+      <div>
+        <h2>Resultado: <span id="result"></span></h2>
+      </div>
+    </section>
+    <section class="error-box">
+      <span id="errorSpan"></span>
+    </section>
+    <section class="chart-box">
+      <canvas id="canvasChart"></canvas>
+    </section>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+html{
+    height: 100vh;
+    font-family: 'Rubik', sans-serif;
+    color: #1746A2;
+    background-color: #FFF7E9;
+}
+
+body{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.convert-box{
+    padding: 2em;
+    background-color: #FF731D;
+}
+
+.error-box{
+    padding: 1em;
+}
+
+.chart-box{
+    margin-top: 2em;
+    width: 40%;
+}
+
+.convert-button{
+    margin-top: 1em;
+}
